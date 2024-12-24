@@ -23,10 +23,6 @@ Reel Vault is a React-based web application that allows users to discover and ex
    ```sh
    git clone https://github.com/guvdsz/project-spark.git
    cd project-spark
-   
-2. Install the dependencies:
-
-- Create a .env file in the root of the project and add your Hugging Face API key:
 
 ### Running the Application
 
