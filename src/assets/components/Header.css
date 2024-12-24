@@ -24,6 +24,8 @@ header img {
     width: 35px;
 }
 header h1 {
+    display: flex;
+    flex-direction: column;
     font-size: 1.5rem;
     position: relative;
     color: #fff;

@@ -11,7 +11,7 @@ export default function Featured({movies, genres, searchValue}) {
         id={item.id}
         title={item.original_title}
         overview={item.overview}
-        poster={`https://image.tmdb.org/t/p/w780${item.backdrop_path}`}
+        poster={`https://image.tmdb.org/t/p/original${item.backdrop_path}`}
         score={item.vote_average ? item.vote_average.toFixed(1) : 'N/A'}
         genres={genres}
         genreIDs={item.genre_ids}
