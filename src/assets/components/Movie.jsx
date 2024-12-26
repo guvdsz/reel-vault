@@ -59,7 +59,7 @@ export default function Movie({
   });
   return (
     <div id={id} className="movie">
-      <img src={poster} alt="N/A" />
+      <img src={poster} alt="N/A" loading="lazy" />
       <div className="movie-info">
         <div className="movie-header">
           <h3>{title}</h3>
@@ -92,11 +92,9 @@ export default function Movie({
           >
             <i className="fa-solid fa-play"></i> Watch Trailer
           </a>
-        ) : <a
-        className="trailer-btn"
-      >
-         N/A
-      </a>}
+        ) : (
+          <a className="trailer-btn">N/A</a>
+        )}
       </div>
     </div>
   );

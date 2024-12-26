@@ -9,7 +9,7 @@ export default function Header({handleSearch}) {
             <img src={VaultIcon} alt="Vault" />
             <h1>Reel <strong>Vault</strong></h1>
           </div>
-           <Search handleSearch={handleSearch} />
+           <Search handleSearch={handleSearch}/>
       </nav>
     </header>
   );

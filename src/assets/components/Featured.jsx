@@ -18,7 +18,6 @@ export default function Featured({movies, genres, searchValue}) {
       />
     );
   });
-  console.log(moviesListing)
   return (
     <section className="featured">
       <div className="title-container">
