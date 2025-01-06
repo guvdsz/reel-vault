@@ -22,7 +22,7 @@ export default function Featured({movies, genres, searchValue}) {
     <section className="featured">
       <div className="title-container">
         <img src={SparklesIcon} alt="Sparkles" />
-        <h2>{searchValue ? searchValue: "Latest Releases"}</h2>
+        <h2>{searchValue ? searchValue: "Popular"}</h2>
       </div>
       <div className="movies-container">{moviesListing.length > 0 ? moviesListing : (<p className="not-found">"{searchValue}" Not Found</p>)}</div>
     </section>
